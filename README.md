@@ -9,12 +9,27 @@
 - Mongoose
 - Redux
 - React
+- ApolloServer
+- JavaScript
+- MongoDB
 
 # Links
 
 GitHub repo: https://github.com/leonaysmael16/redux-store 
 
 Deployed Link: https://agile-chamber-52025.herokuapp.com/ 
+
+# Installation Instructions
+
+### `Mongod`
+
+### `npm i`
+
+### `npm run build`
+
+### `npm run develop`
+
+
 
 # License 
 
