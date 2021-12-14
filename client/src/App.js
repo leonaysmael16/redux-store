@@ -6,9 +6,9 @@ import {
   ApolloProvider,
   createHttpLink,
 } from '@apollo/client';
-// import { setContext } from '@apollo/client/link/context';
-import { ApolloProvider } from '@apollo/react-hooks';
-import { ApolloClient } from 'apollo-boost';
+import { setContext } from '@apollo/client/link/context';
+// import { ApolloProvider } from '@apollo/react-hooks';
+// import { ApolloClient } from 'apollo-boost';
 import { Provider } from 'react-redux';
 import Home from './pages/Home';
 import Detail from './pages/Detail';
@@ -69,7 +69,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <Provider>
+          <Provider store={store}>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
