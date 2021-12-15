@@ -4,7 +4,9 @@
 
 - The purpose of this project is to refactor a ecommerce backend website using redux
 
+![Screen Shot 2021-12-15 at 12 34 08 AM](https://user-images.githubusercontent.com/84559394/146151792-c765e718-c1e5-406f-a62d-ca135d7e56c3.png)
 # Tools Used
+
 
 - Mongoose
 - Redux
